@@ -1,3 +1,8 @@
+/*Matthew Ren
+3/18/2026
+math cpp stuff
+Mrs. Alblas*/
+
 #include <iostream>
 #include <string>
 #include <cmath>
@@ -5,6 +10,7 @@ using namespace std;
 
 int main()
 {
+    // question one
     double guru = pow(pow(pow(2, 3), 3), 3);   // 134217728
     double mason = sqrt(225);                 // 15
     double tri = 5.75 * (hypot(2.4, 2.4));    // 19.5
@@ -19,7 +25,7 @@ int main()
     cout << "If Guru's errors scale exponentially by 3 per session, how many errors will the code have after Guru edits it three times?\n";
 
     cin >> answer;
-
+// question two
     if (answer == int(ans[0])) {
         cout << "good job\n";
         cout << "if mason multiplied by himself is 225, what does mason equal\n";
@@ -29,7 +35,7 @@ int main()
             cout << "do it again pal\n";
             cin >> answer;
         }
-
+// question three
         cout << "good job\n";
         cout << "If a right triangle with the degrees 45-45-90, what is the hypotenuse in feet if side A is equal to 2.4 Guru's and one Guru is equal to 5'9\n";
         cout << "round to the nearest inch\n";
